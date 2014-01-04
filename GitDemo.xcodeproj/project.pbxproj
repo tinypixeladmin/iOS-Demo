@@ -21,6 +21,7 @@
 		309DD6841878577F0036BDFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309DD6661878577F0036BDFC /* UIKit.framework */; };
 		309DD68C1878577F0036BDFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 309DD68A1878577F0036BDFC /* InfoPlist.strings */; };
 		309DD68E1878577F0036BDFC /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 309DD68D1878577F0036BDFC /* GitDemoTests.m */; };
+		309DD699187858F10036BDFC /* TPXTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 309DD698187858F10036BDFC /* TPXTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		309DD6891878577F0036BDFC /* GitDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitDemoTests-Info.plist"; sourceTree = "<group>"; };
 		309DD68B1878577F0036BDFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		309DD68D1878577F0036BDFC /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
+		309DD697187858F10036BDFC /* TPXTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPXTest.h; sourceTree = "<group>"; };
+		309DD698187858F10036BDFC /* TPXTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				309DD6781878577F0036BDFC /* TPXViewController.m */,
 				309DD67A1878577F0036BDFC /* Images.xcassets */,
 				309DD6691878577F0036BDFC /* Supporting Files */,
+				309DD697187858F10036BDFC /* TPXTest.h */,
+				309DD698187858F10036BDFC /* TPXTest.m */,
 			);
 			path = GitDemo;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				309DD699187858F10036BDFC /* TPXTest.m in Sources */,
 				309DD66F1878577F0036BDFC /* main.m in Sources */,
 				309DD6791878577F0036BDFC /* TPXViewController.m in Sources */,
 				309DD6731878577F0036BDFC /* TPXAppDelegate.m in Sources */,
