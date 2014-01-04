@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		309907691878A0C60060D412 /* TPXTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 309907681878A0C60060D412 /* TPXTestModel.m */; };
 		309DD6631878577F0036BDFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309DD6621878577F0036BDFC /* Foundation.framework */; };
 		309DD6651878577F0036BDFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309DD6641878577F0036BDFC /* CoreGraphics.framework */; };
 		309DD6671878577F0036BDFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309DD6661878577F0036BDFC /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		309907671878A0C60060D412 /* TPXTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPXTestModel.h; sourceTree = "<group>"; };
+		309907681878A0C60060D412 /* TPXTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXTestModel.m; sourceTree = "<group>"; };
 		309DD65F1878577F0036BDFC /* GitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		309DD6621878577F0036BDFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		309DD6641878577F0036BDFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,6 +127,8 @@
 				309DD6691878577F0036BDFC /* Supporting Files */,
 				309DD697187858F10036BDFC /* TPXTest.h */,
 				309DD698187858F10036BDFC /* TPXTest.m */,
+				309907671878A0C60060D412 /* TPXTestModel.h */,
+				309907681878A0C60060D412 /* TPXTestModel.m */,
 			);
 			path = GitDemo;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				309DD699187858F10036BDFC /* TPXTest.m in Sources */,
+				309907691878A0C60060D412 /* TPXTestModel.m in Sources */,
 				309DD66F1878577F0036BDFC /* main.m in Sources */,
 				309DD6791878577F0036BDFC /* TPXViewController.m in Sources */,
 				309DD6731878577F0036BDFC /* TPXAppDelegate.m in Sources */,
@@ -467,6 +473,7 @@
 				309DD6931878577F0036BDFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		309DD6941878577F0036BDFC /* Build configuration list for PBXNativeTarget "GitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +482,7 @@
 				309DD6961878577F0036BDFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
